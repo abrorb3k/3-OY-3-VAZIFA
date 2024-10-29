@@ -8,6 +8,7 @@
 }
 
 .container{
+    max-width: 1640px;
     width: 100%;
     background-color: #002855;
     background-image: url(../images/backround-image-1.svg);
@@ -131,6 +132,7 @@ h1{
 }
 /* container-2 */
 .container-2{
+    max-width: 1640px;
     width: 100%;
     background-image: url(../images/BACKGROUND.png);
     background-repeat: no-repeat;
@@ -232,7 +234,10 @@ h2{
 }
 /* container-4 */
 .container-4{
+    max-width: 1640px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .main-5{
     padding: 140px 32px;
